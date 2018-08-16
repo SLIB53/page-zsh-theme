@@ -1,1 +1,1 @@
-PROMPT=$'\n'"%{%F{blue}%}%1~ ➦  %{$reset_color%}%"
+PROMPT=$'\n'"%{%F{white}%}%1~ ➦  %{$reset_color%}%"
