@@ -1,4 +1,7 @@
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%} "
+#      U+E0A0      branch symbol
+# ➦     U+27A6      curved fat arrow
+
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%$\ue0a0 "
 ZSH_THEME_GIT_PROMPT_SUFFIX=" "
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%}"
@@ -21,4 +24,4 @@ vcs_status() {
     fi
 }
 
-PROMPT=$'\n''%{$fg[white]%}%1~'' $(vcs_status)➦  %{$reset_color%}%'
+PROMPT=$'\n''%{$fg[white]%}%1~'' $(vcs_status)$\u27a6  %{$reset_color%}%'
