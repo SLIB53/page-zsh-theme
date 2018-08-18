@@ -8,9 +8,9 @@ _Page_ is a simple zsh theme with VCS support. The prompt shows 1 level of the c
 
 ### Installation
 
-Copy the file to `$ZSH/custom/themes`:
+Run the install script:
 ```sh
-cp page.zsh-theme $ZSH/custom/themes/page.zsh-theme
+source install.sh
 ```
 
 ### Usage
